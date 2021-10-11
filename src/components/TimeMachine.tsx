@@ -22,39 +22,14 @@ import { useEffect, useState } from 'react';
  *     |>>>>>>||                            ||<<<<<<|
  *     `\<<<<</´                            `\>>>>>/´
  *
- *
- * Welcome to the nitty gritty of the TimeMachine!
- * Do not worry about the function body of the component too much.
- * For now you want to help the users of this component by providing helpful
- * information about the types (string, number, etc.) of our props.
- *
- *    __🧚‍♀️_________________________________
- *   |                                    |
- *   |  If you haven't already,           |
- *   |  start this Vite app in dev mode:  |
- *   |                                    |
- *   |  $ npm run dev                     |
- *   |____________________________________|
- *
- *
- * 01 — Rename this file from `TimeMachine.jsx` to `TimeMachine.tsx`.
- *
- *      The t here stands for "type". So a `.ts` or `.tsx` extension means,
- *      that that file is a TypeScript file.
- *      A type is non-standard JavaScript: The browser does not know, what to
- *      with it. Vite removes the types before giving the code to the browser.
- *      Visual Studio Code though can read the types to give you _extremely_
- *      helpful information.
- *
- *
- * 02 — Add the following code before the component (replacing the 02 comment):
- *
- *      type TimeMachineProps = {
- *        fluxCapacitorVoltage: any;
- *        spaceTimeDomain: any;
- *        onTemporalDisplacement: any;
- *      };
- *
+*/
+
+       type TimeMachineProps = {
+         fluxCapacitorVoltage: any;
+         spaceTimeDomain: any;
+        onTemporalDisplacement: any;
+       };
+ /*
  *      This is a type definition. Just like you can define a const or let you can
  *      define, use, export and import types in TypeScript files.
  *
